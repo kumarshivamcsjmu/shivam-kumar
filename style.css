@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 30px;
+    width: 100%;
+    background-color:rgb(196, 72, 72);
+    display: flex;
+    padding: 10px;
+    justify-content:space-between;
+}
+.language{
+   padding: 2px;
+    height: 20px;
+    width:10vw ;
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+.screenreader{
+    color: aliceblue;
+}
+.rank{
+display: flex;
+height: 30px;
+align-items: center;
+gap: 4px;
+
+}
+.item{
+    height: 25px;
+    width: 25px;
+    border: 1px solid black;
+    gap: 10px;
+    background-color: aliceblue;
+    text-align: center;
+}
+.nav1{
+    background-color: rgb(9, 9, 64);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+.item2{
+    color: white;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+}
+select{
+    color: black;
+    border: 1px solid black;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.foundationday{
+   margin: 15px;
+   padding: 5px;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(161, 182, 199);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    justify-content: center;
+    color: brown;
+    font-size: 25px;
+
+}
+
+.rudra{
+    color: brown;
+    font-size: 20px;
+}
+.rudrabhishek{
+    display: grid;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr 0.3fr;
+    /* justify-content: center; */
+    /* align-items: center; */
+    gap: 19px;
+    grid-template-rows: 0.5fr 0.5fr;
+    flex-wrap: wrap;
+    box-shadow: 2px;
+}
+.images{
+    display: grid;
+
+}
+@media screen and(max-width:1300){
+    .foundationday{
+        margin: 15px;
+        padding: 5px;
+         height: 50px;
+         width: 100%;
+         background-color: rgb(161, 182, 199);
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         align-items: center;
+         justify-content: center;
+         color: aqua;
+         font-size: 5px;
+         flex-wrap: wrap;
+     
+     }
+    
+}
+@media  screen and(max-width:600){
+    nav{
+        height: 30px;
+        width: 70%;
+        align-items: center;
+        justify-content: center;
+    }
+
+ .rank{
+
+height: 30px;
+align-items: center;
+justify-content: center;
+gap: 4px;
+
+}
+.screenreader{
+    color: aliceblue;
+}
+.foundationday{
+    margin: 15px;
+    padding: 5px;
+     height: 30px;
+     width: 100%;
+     background-color: rgb(161, 182, 199);
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     align-items: center;
+     justify-content: center;
+     color: brown;
+     font-size: 55px;
+     flex-wrap: wrap;
+ 
+ }
+}
